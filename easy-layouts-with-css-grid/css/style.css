@@ -1,0 +1,28 @@
+/*
+display: grid activates the grid itself. in browsers that don't understand display: grid, that's not going to do anything. those browsers won't understand grid-template-columns. for those browsers, we'll get a solid list of images. we'll want to figure out something else for those browsers.
+
+What grid-template-columns is saying: repeat this pattern over and over again, as many times as it will fit (or auto-fit) into the space that's available. Make a column that's a minimum of 200pxs and a maximum  of 1fr (a flexible column). The moment the browser reaches another 200 pxs, it will add another column.
+*/
+
+.o-body {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #f0f0f0;
+    margin: 0;
+}
+
+.o-main-grid {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.o-main-grid__item {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.06);
+    width: 100%;
+}

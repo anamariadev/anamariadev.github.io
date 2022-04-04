@@ -13,7 +13,7 @@ header {
     background: #61162d;
     background-image: url('../../unlocking-the-power-of-css-overrides/images/Sue-and-Radcliffe-Killam-Library.jpg');
     background-position: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../unlocking-the-power-of-css-overrides/images/Sue-and-Radcliffe-Killam-Library.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../unlocking-the-power-of-css-overrides/images/Sue-and-Radcliffe-Killam-Library.jpg");
     background-size: cover;
     padding: 2rem 0;
     color: #fff;

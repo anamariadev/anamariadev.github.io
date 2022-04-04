@@ -12,7 +12,7 @@
 
 html {
     font-size: 1.1rem;
-    background: url("/innovative-and-practical-graphic-design-with-css-grid/images/tamiu-planetarium.jpg") no-repeat;
+    background: url('../../innovative-and-practical-graphic-design-with-css-grid/images/tamiu-planetarium.jpg') no-repeat;
     background-position: right top;
     background-size: cover;
     font-family: Avenir, Helvetica, georgia, serif;

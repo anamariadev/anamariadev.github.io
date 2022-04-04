@@ -1,0 +1,57 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+header > h1 
+{
+    font-family: 'Georgia',serif;
+    font-style: italic;
+}
+
+section {
+  max-width: 500px;
+  margin: 0 auto; }
+
+article {
+  margin: 1rem 0; }
+
+@supports (display: grid) {
+  section {
+    max-width: none;
+    margin: 0; }
+  article {
+    margin: 0; }
+  section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem; } }
+
+article {
+  display: flex;
+  flex-flow: column; }
+
+article > img {
+  order: -1;
+  align-self: center; }
+
+article {
+  padding: 2rem; }
+
+article > h1 {
+  margin: 1rem 1rem 0; }
+
+article > ul {
+  margin: 0 0 1rem; }
+
+article > p {
+  margin: 0.25em 1rem 1rem; }
+
+article {
+  border: 1px solid #d8dae1;
+  border-radius: 1rem; }
+
+article > a {
+    margin-top: auto;
+}
